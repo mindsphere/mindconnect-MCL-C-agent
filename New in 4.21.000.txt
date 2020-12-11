@@ -1,0 +1,39 @@
+3.00.001
+Datentypen 
+Bool , int ,long , double mit eigenem speziellen cast.
+string, big_string , timestamp:  max 10 char -> not to be used
+
+3.00.002
+DataInput section for value string can now be free in size. 
+Important: the pipe | seperates the sections. 
+A data input line can have max. 100 chars total.
+
+3.10.000
+Usage of MCL V3.1
+Files can be uploaded
+Events can be uploaded
+screen output optimized
+data store memory leak fixed 
+
+3.10.001
+max count of timeseries per datastore now depending on size of payload
+time calculation of duration of data uploads to mindsphere corrected
+
+3.10.002
+Memory leak in ManageUploadFiles fixed
+
+3.10.003 14.09.18 
+%s in description of event to include parameter pC from python script
+
+3.10.004 19.11.18
+Payload size limited only for timeseries max 1MB if payload is more  . Files upload up to 10MB possible.
+
+3.10.005 31.01.19
+Plausibility Test of Dat Input Lines improved. Faulty lines printed in the terminal , but ignored for upload.
+
+3.10.006 11.09.19
+endles retry of data store transfer if internet connection is broken
+
+4.00.000 24.01.20 Migration to MCL V4.0
+4.21.000 07.10.20 Update to to MCL V4.2 with new functionality offered by MCL 4.2
+ 

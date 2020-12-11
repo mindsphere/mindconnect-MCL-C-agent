@@ -1,0 +1,430 @@
+# depslib dependency file v1.0
+1582899619 source:/home/pi/RPiAgentV4/callbacks.c
+	"callbacks.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<pthread.h>
+	"mcl_core/mcl_file_util.h"
+	"mcl_core/mcl_string_util.h"
+	"mcl_core/mcl_memory.h"
+
+1582899017 /home/pi/RPiAgentV4/callbacks.h
+	"mcl_core/mcl_core.h"
+
+1574328832 /home/pi/MCL401Inst/include/mcl_core/mcl_core.h
+	"mcl_core/mcl_assert.h"
+	"mcl_core/mcl_core_configuration.h"
+	"mcl_core/mcl_http_client.h"
+	"mcl_core/mcl_json_util.h"
+	"mcl_core/mcl_time_util.h"
+
+1565110448 /home/pi/MCL401Inst/include/mcl_core/mcl_assert.h
+	"mcl_core/mcl_log_util.h"
+
+1567071884 /home/pi/MCL401Inst/include/mcl_core/mcl_log_util.h
+	"mcl_core/mcl_core_common.h"
+
+1574328832 /home/pi/MCL401Inst/include/mcl_core/mcl_core_common.h
+	"mcl_core/mcl_config_setup.h"
+	<stddef.h>
+	<stdint.h>
+	<time.h>
+
+1561116840 /home/pi/MCL401Inst/include/mcl_core/mcl_config_setup.h
+	"mcl_core/mcl_config.h"
+	"mcl_core/mcl_version.h"
+
+1561116840 /home/pi/MCL401Inst/include/mcl_core/mcl_config.h
+
+1574934402 /home/pi/MCL401Inst/include/mcl_core/mcl_version.h
+
+1574934402 /home/pi/MCL401Inst/include/mcl_core/mcl_core_configuration.h
+	"mcl_core/mcl_core_common.h"
+
+1574328832 /home/pi/MCL401Inst/include/mcl_core/mcl_http_client.h
+	"mcl_core/mcl_core_common.h"
+	"mcl_core/mcl_http_response.h"
+	"mcl_core/mcl_http_request.h"
+
+1567071884 /home/pi/MCL401Inst/include/mcl_core/mcl_http_response.h
+	"mcl_core/mcl_core_common.h"
+	"mcl_core/mcl_list.h"
+
+1568649284 /home/pi/MCL401Inst/include/mcl_core/mcl_list.h
+	"mcl_core/mcl_core_common.h"
+
+1568649284 /home/pi/MCL401Inst/include/mcl_core/mcl_http_request.h
+	"mcl_core/mcl_list.h"
+
+1567071884 /home/pi/MCL401Inst/include/mcl_core/mcl_json_util.h
+	"mcl_core/mcl_core_common.h"
+
+1567071884 /home/pi/MCL401Inst/include/mcl_core/mcl_time_util.h
+	"mcl_core/mcl_core_common.h"
+
+1567071884 /home/pi/MCL401Inst/include/mcl_core/mcl_file_util.h
+	"mcl_core/mcl_core_common.h"
+
+1567071884 /home/pi/MCL401Inst/include/mcl_core/mcl_string_util.h
+	"mcl_core/mcl_core_common.h"
+
+1561116840 /home/pi/MCL401Inst/include/mcl_core/mcl_memory.h
+	"mcl_core/mcl_core_common.h"
+
+1582901327 source:/home/pi/RPiAgentV4/RPiAgentV4.c
+	<ctype.h>
+	<libconfig.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<fcntl.h>
+	<linux/input.h>
+	<signal.h>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	"mcl_core/mcl_core.h"
+	"mcl_core/mcl_core_configuration.h"
+	"mcl_core/mcl_random.h"
+	"mcl_core/mcl_json_util.h"
+	"mcl_connectivity/mcl_connectivity.h"
+	"callbacks.h"
+
+1567071884 /home/pi/MCL401Inst/include/mcl_core/mcl_random.h
+	"mcl_core/mcl_core_common.h"
+
+1574328832 /home/pi/MCL401Inst/include/mcl_connectivity/mcl_connectivity.h
+	"mcl_core/mcl_core.h"
+	"mcl_connectivity/mcl_store.h"
+	"mcl_connectivity/mcl_event.h"
+	"mcl_connectivity/mcl_data_source_configuration.h"
+	"mcl_connectivity/mcl_timeseries.h"
+	"mcl_connectivity/mcl_file.h"
+	"mcl_connectivity/mcl_custom_data.h"
+	"mcl_connectivity/mcl_connectivity_configuration.h"
+
+1567071884 /home/pi/MCL401Inst/include/mcl_connectivity/mcl_store.h
+	"mcl_connectivity/mcl_connectivity_common.h"
+
+1567071884 /home/pi/MCL401Inst/include/mcl_connectivity/mcl_connectivity_common.h
+	"mcl_core/mcl_assert.h"
+
+1567071884 /home/pi/MCL401Inst/include/mcl_connectivity/mcl_event.h
+	"mcl_connectivity/mcl_connectivity_common.h"
+
+1568649284 /home/pi/MCL401Inst/include/mcl_connectivity/mcl_data_source_configuration.h
+	"mcl_connectivity/mcl_data_source.h"
+
+1568649284 /home/pi/MCL401Inst/include/mcl_connectivity/mcl_data_source.h
+	"mcl_connectivity/mcl_data_point.h"
+
+1567071884 /home/pi/MCL401Inst/include/mcl_connectivity/mcl_data_point.h
+	"mcl_connectivity/mcl_connectivity_common.h"
+
+1568649284 /home/pi/MCL401Inst/include/mcl_connectivity/mcl_timeseries.h
+	"mcl_connectivity/mcl_timeseries_value_list.h"
+
+1568649284 /home/pi/MCL401Inst/include/mcl_connectivity/mcl_timeseries_value_list.h
+	"mcl_connectivity/mcl_timeseries_value.h"
+
+1568649284 /home/pi/MCL401Inst/include/mcl_connectivity/mcl_timeseries_value.h
+	"mcl_connectivity/mcl_connectivity_common.h"
+
+1567071884 /home/pi/MCL401Inst/include/mcl_connectivity/mcl_file.h
+	"mcl_connectivity/mcl_connectivity_common.h"
+
+1567071884 /home/pi/MCL401Inst/include/mcl_connectivity/mcl_custom_data.h
+	"mcl_connectivity/mcl_connectivity_common.h"
+
+1568649284 /home/pi/MCL401Inst/include/mcl_connectivity/mcl_connectivity_configuration.h
+	"mcl_connectivity/mcl_connectivity_common.h"
+
+1598550412 source:/home/pi/RPiAgentV4Prj/RPiAgentV4.c
+	<ctype.h>
+	<libconfig.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<fcntl.h>
+	<linux/input.h>
+	<signal.h>
+	<dirent.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stdarg.h>
+	"mcl_core/mcl_core.h"
+	"mcl_core/mcl_core_configuration.h"
+	"mcl_core/mcl_random.h"
+	"mcl_core/mcl_json_util.h"
+	"mcl_connectivity/mcl_connectivity.h"
+	"mcl_data_lake/mcl_data_lake.h"
+	"callbacks.h"
+	"mcl_core/mcl_log_util.h"
+	"mcl_core/mcl_file_util.h"
+
+1582899017 /home/pi/RPiAgentV4Prj/callbacks.h
+	"mcl_core/mcl_core.h"
+
+1582899619 source:/home/pi/RPiAgentV4Prj/callbacks.c
+	"callbacks.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<pthread.h>
+	"mcl_core/mcl_file_util.h"
+	"mcl_core/mcl_string_util.h"
+	"mcl_core/mcl_memory.h"
+
+1574328832 /home/pi/MCL411Inst/include/mcl_core/mcl_core.h
+	"mcl_core/mcl_assert.h"
+	"mcl_core/mcl_core_configuration.h"
+	"mcl_core/mcl_http_client.h"
+	"mcl_core/mcl_json_util.h"
+	"mcl_core/mcl_time_util.h"
+
+1580118706 /home/pi/MCL411Inst/include/mcl_core/mcl_assert.h
+	"mcl_core/mcl_log_util.h"
+
+1567071884 /home/pi/MCL411Inst/include/mcl_core/mcl_log_util.h
+	"mcl_core/mcl_core_common.h"
+
+1583844876 /home/pi/MCL411Inst/include/mcl_core/mcl_core_common.h
+	"mcl_core/mcl_config_setup.h"
+	<stddef.h>
+	<stdint.h>
+	<time.h>
+
+1561116840 /home/pi/MCL411Inst/include/mcl_core/mcl_config_setup.h
+	"mcl_core/mcl_config.h"
+	"mcl_core/mcl_version.h"
+
+1561116840 /home/pi/MCL411Inst/include/mcl_core/mcl_config.h
+
+1580290810 /home/pi/MCL411Inst/include/mcl_core/mcl_version.h
+
+1574934402 /home/pi/MCL411Inst/include/mcl_core/mcl_core_configuration.h
+	"mcl_core/mcl_core_common.h"
+
+1574328832 /home/pi/MCL411Inst/include/mcl_core/mcl_http_client.h
+	"mcl_core/mcl_core_common.h"
+	"mcl_core/mcl_http_response.h"
+	"mcl_core/mcl_http_request.h"
+
+1581334522 /home/pi/MCL411Inst/include/mcl_core/mcl_http_response.h
+	"mcl_core/mcl_core_common.h"
+	"mcl_core/mcl_list.h"
+
+1568649284 /home/pi/MCL411Inst/include/mcl_core/mcl_list.h
+	"mcl_core/mcl_core_common.h"
+
+1568649284 /home/pi/MCL411Inst/include/mcl_core/mcl_http_request.h
+	"mcl_core/mcl_list.h"
+
+1583844876 /home/pi/MCL411Inst/include/mcl_core/mcl_json_util.h
+	"mcl_core/mcl_core_common.h"
+
+1567071884 /home/pi/MCL411Inst/include/mcl_core/mcl_time_util.h
+	"mcl_core/mcl_core_common.h"
+
+1581334522 /home/pi/MCL411Inst/include/mcl_core/mcl_file_util.h
+	"mcl_core/mcl_core_common.h"
+
+1567071884 /home/pi/MCL411Inst/include/mcl_core/mcl_string_util.h
+	"mcl_core/mcl_core_common.h"
+
+1561116840 /home/pi/MCL411Inst/include/mcl_core/mcl_memory.h
+	"mcl_core/mcl_core_common.h"
+
+1567071884 /home/pi/MCL411Inst/include/mcl_core/mcl_random.h
+	"mcl_core/mcl_core_common.h"
+
+1583836594 /home/pi/MCL411Inst/include/mcl_connectivity/mcl_connectivity.h
+	"mcl_core/mcl_core.h"
+	"mcl_connectivity/mcl_store.h"
+	"mcl_connectivity/mcl_event.h"
+	"mcl_connectivity/mcl_data_source_configuration.h"
+	"mcl_connectivity/mcl_timeseries.h"
+	"mcl_connectivity/mcl_file.h"
+	"mcl_connectivity/mcl_custom_data.h"
+	"mcl_connectivity/mcl_connectivity_configuration.h"
+
+1567071884 /home/pi/MCL411Inst/include/mcl_connectivity/mcl_store.h
+	"mcl_connectivity/mcl_connectivity_common.h"
+
+1581334522 /home/pi/MCL411Inst/include/mcl_connectivity/mcl_connectivity_common.h
+	"mcl_core/mcl_assert.h"
+
+1567071884 /home/pi/MCL411Inst/include/mcl_connectivity/mcl_event.h
+	"mcl_connectivity/mcl_connectivity_common.h"
+
+1568649284 /home/pi/MCL411Inst/include/mcl_connectivity/mcl_data_source_configuration.h
+	"mcl_connectivity/mcl_data_source.h"
+
+1568649284 /home/pi/MCL411Inst/include/mcl_connectivity/mcl_data_source.h
+	"mcl_connectivity/mcl_data_point.h"
+
+1567071884 /home/pi/MCL411Inst/include/mcl_connectivity/mcl_data_point.h
+	"mcl_connectivity/mcl_connectivity_common.h"
+
+1568649284 /home/pi/MCL411Inst/include/mcl_connectivity/mcl_timeseries.h
+	"mcl_connectivity/mcl_timeseries_value_list.h"
+
+1568649284 /home/pi/MCL411Inst/include/mcl_connectivity/mcl_timeseries_value_list.h
+	"mcl_connectivity/mcl_timeseries_value.h"
+
+1568649284 /home/pi/MCL411Inst/include/mcl_connectivity/mcl_timeseries_value.h
+	"mcl_connectivity/mcl_connectivity_common.h"
+
+1567071884 /home/pi/MCL411Inst/include/mcl_connectivity/mcl_file.h
+	"mcl_connectivity/mcl_connectivity_common.h"
+
+1567071884 /home/pi/MCL411Inst/include/mcl_connectivity/mcl_custom_data.h
+	"mcl_connectivity/mcl_connectivity_common.h"
+
+1581334522 /home/pi/MCL411Inst/include/mcl_connectivity/mcl_connectivity_configuration.h
+	"mcl_connectivity/mcl_connectivity_common.h"
+
+1578643586 /home/pi/MCL411Inst/include/mcl_data_lake/mcl_data_lake.h
+	"mcl_data_lake/mcl_data_lake_object.h"
+	"mcl_data_lake/mcl_data_lake_configuration.h"
+	"mcl_core/mcl_list.h"
+
+1574328832 /home/pi/MCL411Inst/include/mcl_data_lake/mcl_data_lake_object.h
+	"mcl_data_lake/mcl_data_lake_common.h"
+
+1581334522 /home/pi/MCL411Inst/include/mcl_data_lake/mcl_data_lake_common.h
+	"mcl_core/mcl_assert.h"
+
+1574328832 /home/pi/MCL411Inst/include/mcl_data_lake/mcl_data_lake_configuration.h
+	"mcl_data_lake/mcl_data_lake_common.h"
+
+1574328832 /home/pi/MCL420Inst/include/mcl_core/mcl_core.h
+	"mcl_core/mcl_assert.h"
+	"mcl_core/mcl_core_configuration.h"
+	"mcl_core/mcl_http_client.h"
+	"mcl_core/mcl_json_util.h"
+	"mcl_core/mcl_time_util.h"
+
+1580118706 /home/pi/MCL420Inst/include/mcl_core/mcl_assert.h
+	"mcl_core/mcl_log_util.h"
+
+1567071884 /home/pi/MCL420Inst/include/mcl_core/mcl_log_util.h
+	"mcl_core/mcl_core_common.h"
+
+1583844876 /home/pi/MCL420Inst/include/mcl_core/mcl_core_common.h
+	"mcl_core/mcl_config_setup.h"
+	<stddef.h>
+	<stdint.h>
+	<time.h>
+
+1561116840 /home/pi/MCL420Inst/include/mcl_core/mcl_config_setup.h
+	"mcl_core/mcl_config.h"
+	"mcl_core/mcl_version.h"
+
+1561116840 /home/pi/MCL420Inst/include/mcl_core/mcl_config.h
+
+1585834400 /home/pi/MCL420Inst/include/mcl_core/mcl_version.h
+
+1574934402 /home/pi/MCL420Inst/include/mcl_core/mcl_core_configuration.h
+	"mcl_core/mcl_core_common.h"
+
+1574328832 /home/pi/MCL420Inst/include/mcl_core/mcl_http_client.h
+	"mcl_core/mcl_core_common.h"
+	"mcl_core/mcl_http_response.h"
+	"mcl_core/mcl_http_request.h"
+
+1581334522 /home/pi/MCL420Inst/include/mcl_core/mcl_http_response.h
+	"mcl_core/mcl_core_common.h"
+	"mcl_core/mcl_list.h"
+
+1568649284 /home/pi/MCL420Inst/include/mcl_core/mcl_list.h
+	"mcl_core/mcl_core_common.h"
+
+1568649284 /home/pi/MCL420Inst/include/mcl_core/mcl_http_request.h
+	"mcl_core/mcl_list.h"
+
+1584959136 /home/pi/MCL420Inst/include/mcl_core/mcl_json_util.h
+	"mcl_core/mcl_core_common.h"
+
+1567071884 /home/pi/MCL420Inst/include/mcl_core/mcl_time_util.h
+	"mcl_core/mcl_core_common.h"
+
+1581334522 /home/pi/MCL420Inst/include/mcl_core/mcl_file_util.h
+	"mcl_core/mcl_core_common.h"
+
+1567071884 /home/pi/MCL420Inst/include/mcl_core/mcl_string_util.h
+	"mcl_core/mcl_core_common.h"
+
+1561116840 /home/pi/MCL420Inst/include/mcl_core/mcl_memory.h
+	"mcl_core/mcl_core_common.h"
+
+1567071884 /home/pi/MCL420Inst/include/mcl_core/mcl_random.h
+	"mcl_core/mcl_core_common.h"
+
+1584959136 /home/pi/MCL420Inst/include/mcl_connectivity/mcl_connectivity.h
+	"mcl_core/mcl_core.h"
+	"mcl_connectivity/mcl_store.h"
+	"mcl_connectivity/mcl_event.h"
+	"mcl_connectivity/mcl_data_source_configuration.h"
+	"mcl_connectivity/mcl_timeseries.h"
+	"mcl_connectivity/mcl_file.h"
+	"mcl_connectivity/mcl_custom_data.h"
+	"mcl_connectivity/mcl_connectivity_configuration.h"
+	"mcl_connectivity/mcl_mapping.h"
+
+1567071884 /home/pi/MCL420Inst/include/mcl_connectivity/mcl_store.h
+	"mcl_connectivity/mcl_connectivity_common.h"
+
+1581334522 /home/pi/MCL420Inst/include/mcl_connectivity/mcl_connectivity_common.h
+	"mcl_core/mcl_assert.h"
+
+1567071884 /home/pi/MCL420Inst/include/mcl_connectivity/mcl_event.h
+	"mcl_connectivity/mcl_connectivity_common.h"
+
+1568649284 /home/pi/MCL420Inst/include/mcl_connectivity/mcl_data_source_configuration.h
+	"mcl_connectivity/mcl_data_source.h"
+
+1568649284 /home/pi/MCL420Inst/include/mcl_connectivity/mcl_data_source.h
+	"mcl_connectivity/mcl_data_point.h"
+
+1567071884 /home/pi/MCL420Inst/include/mcl_connectivity/mcl_data_point.h
+	"mcl_connectivity/mcl_connectivity_common.h"
+
+1568649284 /home/pi/MCL420Inst/include/mcl_connectivity/mcl_timeseries.h
+	"mcl_connectivity/mcl_timeseries_value_list.h"
+
+1568649284 /home/pi/MCL420Inst/include/mcl_connectivity/mcl_timeseries_value_list.h
+	"mcl_connectivity/mcl_timeseries_value.h"
+
+1568649284 /home/pi/MCL420Inst/include/mcl_connectivity/mcl_timeseries_value.h
+	"mcl_connectivity/mcl_connectivity_common.h"
+
+1567071884 /home/pi/MCL420Inst/include/mcl_connectivity/mcl_file.h
+	"mcl_connectivity/mcl_connectivity_common.h"
+
+1567071884 /home/pi/MCL420Inst/include/mcl_connectivity/mcl_custom_data.h
+	"mcl_connectivity/mcl_connectivity_common.h"
+
+1581334522 /home/pi/MCL420Inst/include/mcl_connectivity/mcl_connectivity_configuration.h
+	"mcl_connectivity/mcl_connectivity_common.h"
+
+1584959136 /home/pi/MCL420Inst/include/mcl_connectivity/mcl_mapping.h
+	"mcl_connectivity/mcl_connectivity_common.h"
+
+1578643586 /home/pi/MCL420Inst/include/mcl_data_lake/mcl_data_lake.h
+	"mcl_data_lake/mcl_data_lake_object.h"
+	"mcl_data_lake/mcl_data_lake_configuration.h"
+	"mcl_core/mcl_list.h"
+
+1574328832 /home/pi/MCL420Inst/include/mcl_data_lake/mcl_data_lake_object.h
+	"mcl_data_lake/mcl_data_lake_common.h"
+
+1581334522 /home/pi/MCL420Inst/include/mcl_data_lake/mcl_data_lake_common.h
+	"mcl_core/mcl_assert.h"
+
+1574328832 /home/pi/MCL420Inst/include/mcl_data_lake/mcl_data_lake_configuration.h
+	"mcl_data_lake/mcl_data_lake_common.h"
+
